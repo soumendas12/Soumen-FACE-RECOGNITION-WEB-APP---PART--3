@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>
+            FACE RECOGNITION
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+       <h2><ul></ul><b>FACE RECOGNITION WEB APP</b></ul></h2>
+       <ul>
+<br>
+<h3>
+    Model is trained to Identify the following object:
+</h>
+</h3>
+<center>
+  
+<h3>
+<br>
+<hr>
+<b>
+Father
+</b>
+<hr>
+<b>
+Mother
+</b>
+<hr>
+<b>
+Me
+</b>
+<hr>
+</h3>
+
+<label>Your webcam : </label>
+<div id="camera"></div>
+<br>
+
+<label>Your selife Will Display Here: </label>
+<div id="result" ></div>
+        </ul>
+        <br>
+        <ul>
+        <button onclick="take_snapshot();" class="btn btn-info">Capture Image</button>
+          <br><br>
+    <button onclick="check();" class="btn btn-success">Identify Image</button>
+          <br><br>
+          </ul>
+          <script src="main.js"></script>
+    </center>
+    </body>
+</html>

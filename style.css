@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(197, 150, 241);
+}
+#camera
+{
+    border: 2px - black;
+    width:35px;
+    height:35px;
+    
+}
+h2{
+    color:white;
+    background-color:black;
+}
